@@ -12,7 +12,7 @@ export class ThreeDotSpinner extends LitElement {
       }
       .three-body {
         --uib-size: var(--tds-size, 35px);
-        --uib-speed: var(--tds-size, 1.1s);
+        --uib-speed: var(--tds-speed, 1.1s);
         --uib-color: var(--tds-color, #f78302);
 
         position: relative;
