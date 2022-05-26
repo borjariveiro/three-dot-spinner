@@ -12,11 +12,19 @@ npm i three-dot-spinner
 
 ```html
 <script type="module">
-  import 'three-dot-spinner/three-dot-spinner.js';
+  import '@borjariveiro/three-dot-spinner/three-dot-spinner.js';
 </script>
 
 <three-dot-spinner></three-dot-spinner>
 ```
+
+## Styling
+
+- **--tds-container-width**. Default 100%
+- **--tds-container-height**. Default 10rem
+- **--tds-size**. Default 35px
+- **--tds-speed**. Default 1.1s
+- **--tds-color**. Default #f78302
 
 ## Linting and formatting
 
