@@ -16,6 +16,9 @@
     "url": "https://github.com/borjariveiro/three-dot-spinner/issues"
   },
   "homepage": "https://github.com/borjariveiro/three-dot-spinner",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "module": "index.js",
   "scripts": {
