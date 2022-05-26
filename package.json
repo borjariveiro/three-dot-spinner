@@ -3,7 +3,7 @@
   "description": "Webcomponent three-dot-spinner following open-wc recommendations",
   "license": "MIT",
   "author": "borjariveiro",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/borjariveiro/three-dot-spinner"
