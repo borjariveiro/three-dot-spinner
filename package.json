@@ -1,14 +1,27 @@
 {
-  "name": "sthree-dot-spinner",
+  "name": "@borjariveiro/three-dot-spinner",
   "description": "Webcomponent three-dot-spinner following open-wc recommendations",
   "license": "MIT",
-  "author": "three-dot-spinner",
-  "version": "0.0.0",
+  "author": "borjariveiro",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/borjariveiro/three-dot-spinner"
+  },
+  "keywords": [
+    "webcomponent",
+    "lit-element"
+  ],
+  "bugs": {
+    "url": "https://github.com/borjariveiro/three-dot-spinner/issues"
+  },
+  "homepage": "https://github.com/borjariveiro/three-dot-spinner",
   "main": "index.js",
   "module": "index.js",
   "scripts": {
     "analyze": "cem analyze --litelement",
-    "start": "web-dev-server",
+    "start": "npm run docs && web-dev-server",
+    "docs": "npx @custom-elements-manifest/analyzer analyze --litelement",
     "lint": "eslint --ext .js,.html . --ignore-path .gitignore && prettier \"**/*.js\" --check --ignore-path .gitignore",
     "format": "eslint --ext .js,.html . --fix --ignore-path .gitignore && prettier \"**/*.js\" --write --ignore-path .gitignore",
     "test": "web-test-runner --coverage",
@@ -17,6 +30,7 @@
     "storybook:build": "npm run analyze -- --exclude dist && build-storybook"
   },
   "dependencies": {
+    "api-viewer-element": "^1.0.0-pre.3",
     "lit": "^2.0.2"
   },
   "devDependencies": {
